@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+        content="le monde kabyle, le peuple  amazight et les différentes langues parlées, la société kabyle et les Imazighen et le peuple berbère ainsi que l'hymne nationnal berbère et le drapeau amazight.
+              la population et les différentes ethnie, répartition géographique, production agricole, organisation et administration,coran en amazight,musique et culture kabyle" />
+    <meta name="keywords" content="algérie, kabylie, population amazight,Chleuh , Chaoui , Chenoui , Kabyle , Mozabite , Nafusi , Rifain , Siwi , Tagargrent , Touareg ,
+              Zayane , Zénète ,croissance, religion, islam,musique kabyle,coran,coran en kabyle,homme libre,
+              coran en amazight,matoub lounes,idir,chanteur kabyle,personnalités kabyle" />
+    <meta name="author" lang="fr" content="Malik AMROUNE">
+    <meta name="category" content="culture">
+    <meta name="robots" content="index, follow">
+    <meta name="google-site-verification" content="srp6xrZfJ3S7UjOr0_Ho6SxsmHAqAblN_3gzDY8R5dA" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="CSS/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!--<link rel="stylesheet" href="Gabari.css">-->
+ <link rel="stylesheet" href="css/style2.css">
+
+    
+    <!-- Lien pour les polices d'écriture -->
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+<title>Prénoms Arabes,kabyle et Significations</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+h1 {
+    margin: 9;
+}
+.masculin
+    {
+        margin-top: 0;
+        color: blue;
+    }
+
+   .féminin
+    {
+        margin-top: 0;
+        color: rgb(255, 145, 163);
+    }
+    p
+    {
+        font-size: 1.2em;
+        margin-top: 22px;
+        text-align: left;
+        padding-top: 20px;
+    }
+
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: darkslategray opacity(0.5);
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.section h2.féminin {
+    border-left: 5px solid #2575fc;
+    padding-left: 10px;
+    color: #ff53b4;
+}
+
+.section h2.masculin {
+    border-left: 5px solid #2575fc;
+    padding-left: 10px;
+    color: blue;
+}
+
+
+.card {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 4px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.name {
+    font-weight: bold;
+    color: #6a11cb;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Prénoms Arabes, kabyle et Significations</h1>
+    <p>Découvrez des prénoms inspirants et leurs significations profondes</p>
+    <p>_____________Transcrire un prénom en Tifinagh</p>
+    <p>_______________Transcrire un prénom en Arabe</p>
+</header>
+
+
+<div class="container">
+    <br>
+    
+    <!--***********************Retranscription du prenom français en kabyle******************-->
+    <div class="container3">
+        <h6>🔤 Transcrire un prénom en Tifinagh</h6>
+        <input type="text" id="prenom" placeholder="Entrez votre prénom">
+        <div class="buttons">
+            <script src="script2.js" defer></script>
+        <button onclick="transcrire()" oninput="transcrire()">Transcrire</button>
+        <button onclick="copieTexte()">📋 Copier</button>
+        <button onclick="efface()">❌ Effacer</button>
+        <h1 id="resultat"></h1>
+        
+    </div>
+    <button onclick="telechargeImage()">🖼️ Télécharger</button>
+<canvas id="canvas2" style="display:none;"></canvas>
+
+    
+    <br><br>
+
+    
+
+     <br>
+     </div>
+ <!--******FIN******FIN  Retranscription du prenom français en kabyle******************-->
+     <br></br>
+   
+     
+
+      <!--*********************** Transcription prénom en arabe ******************-->
+<div class="container4">
+    <h6>🔤 Transcrire un prénom en arabe</h6>
+    <input type="text" id="prenoms"  placeholder="Entrez votre prénom">
+     <div class="buttons">
+        <button onclick="transcrires()" oninput="transcrires()" >Transcrire</button>
+        <button onclick="copierTexte()">📋 Copier</button>
+        <button onclick="effacer()">❌ Effacer</button>
+        <h1 id="resultats"></h1>
+        <script src="./js/transcrire_arabe.js" defer></script>
+    </div>
+<button onclick="telechargerImage()">🖼️ Télécharger</button>
+<canvas id="canvas" style="display:none;"></canvas>
+</div>
+
+<br><br></br>
+
+    <div class="section">
+        <h2 class="féminin">Prénoms féminins</h2>
+
+        <div class="card"><span class="name">Adara</span> – Lumière brillante, symbole de clarté et d’espoir.</div>
+        <div class="card"><span class="name">Alya</span> – Élevée, sublime, représentant la noblesse.</div>
+        <div class="card"><span class="name">Amal</span> – Espoir, une lumière dans l’obscurité.</div>
+        <div class="card"><span class="name">Aya</span> – Signe, miracle, beauté unique.</div>
+        <div class="card"><span class="name">Basma</span> – Sourire, joie et positivité.</div>
+        <div class="card"><span class="name">Dana</span> – Sage, intelligente.</div>
+        <div class="card"><span class="name">Dima</span> – Pluie fine, douceur et calme.</div>
+        <div class="card"><span class="name">Fatin</span> – Enchanteresse, charme captivant.</div>
+        <div class="card"><span class="name">Ghada</span> – Grâce et délicatesse.</div>
+        <div class="card"><span class="name">Hala</span> – Aura lumineuse.</div>
+        <div class="card"><span class="name">Kenza</span> – Trésor précieux.</div>
+        <div class="card"><span class="name">Lana</span> – Douce et tendre.</div>
+        <div class="card"><span class="name">Lina</span> – Délicatesse et amour.</div>
+        <div class="card"><span class="name">Malak</span> – Ange, pureté céleste.</div>
+        <div class="card"><span class="name">Maya</span> – Source de vie.</div>
+
+    </div>
+
+    <div class="section">
+        <h2 class="masculin">Prénoms masculins</h2>
+
+        <div class="card"><span class="name">Adam</span> – Premier homme, origine.</div>
+        <div class="card"><span class="name">Amir</span> – Prince, leadership.</div>
+        <div class="card"><span class="name">Ayman</span> – Béni, chanceux.</div>
+        <div class="card"><span class="name">Basil</span> – Courageux.</div>
+        <div class="card"><span class="name">Elias</span> – Prophète, foi.</div>
+        <div class="card"><span class="name">Fadi</span> – Libération.</div>
+        <div class="card"><span class="name">Ghassan</span> – Abondance.</div>
+        <div class="card"><span class="name">Hadi</span> – Guide.</div>
+        <div class="card"><span class="name">Iyad</span> – Force.</div>
+        <div class="card"><span class="name">Jad</span> – Béni.</div>
+        <div class="card"><span class="name">Kaïs</span> – Leader.</div>
+        <div class="card"><span class="name">Lyes</span> – Lion, puissance.</div>
+        <div class="card"><span class="name">Marwan</span> – Pierre précieuse.</div>
+        <div class="card"><span class="name">Nael</span> – Don de Dieu.</div>
+        <div class="card"><span class="name">Noor</span> – Lumière.</div>
+        <div class="card"><span class="name">Rayan</span> – Paradis.</div>
+        <div class="card"><span class="name">Tarek</span> – Étoile du matin.</div>
+
+    </div>
+
+</div>
+
+
+<header>
+    <h1>✨ Prénoms & Significations</h1>
+    <input type="text" id="search" placeholder="Rechercher un prénom...">
+
+    <div class="buttons">
+        <button onclick="filterType('all')">Tous</button>
+        <button onclick="filterType('f')">Féminins</button>
+        <button onclick="filterType('m')">Masculins</button>
+        <button onclick="toggleDark()">🌙 Mode sombre</button>
+    </div>
+</header>
+
+<div class="container" id="list"></div>
+
+<script>
+const data = [
+{n:"Adara", d:"Lumière brillante", t:"f"},
+{n:"Alya", d:"Sublime", t:"f"},
+{n:"Amal", d:"Espoir", t:"f"},
+{n:"Aya", d:"Miracle", t:"f"},
+{n:"Basma", d:"Sourire", t:"f"},
+{n:"Dana", d:"Intelligente", t:"f"},
+{n:"Dima", d:"Pluie fine", t:"f"},
+{n:"Fatin", d:"Enchanteresse", t:"f"},
+{n:"Kenza", d:"Trésor", t:"f"},
+{n:"Lina", d:"Douce", t:"f"},
+{n:"Malak", d:"Ange", t:"f"},
+{n:"Maya", d:"Source", t:"f"},
+
+{n:"Adam", d:"Premier homme", t:"m"},
+{n:"Amir", d:"Prince", t:"m"},
+{n:"Ayman", d:"Béni", t:"m"},
+{n:"Basil", d:"Courageux", t:"m"},
+{n:"Elias", d:"Prophète", t:"m"},
+{n:"Fadi", d:"Libération", t:"m"},
+{n:"Hadi", d:"Guide", t:"m"},
+{n:"Iyad", d:"Force", t:"m"},
+{n:"Noor", d:"Lumière", t:"m"},
+{n:"Rayan", d:"Paradis", t:"m"},
+{n:"Tarek", d:"Étoile", t:"m"}
+];
+
+let currentFilter = "all";
+
+function display() {
+    const search = document.getElementById("search").value.toLowerCase();
+    const container = document.getElementById("list");
+    container.innerHTML = "";
+
+    data.forEach(item => {
+        if ((currentFilter === "all" || item.t === currentFilter) &&
+            item.n.toLowerCase().includes(search)) {
+
+            container.innerHTML += `
+            <div class="card">
+                <div>
+                    <div class="name">${item.n}</div>
+                    <div>${item.d}</div>
+                </div>
+                <div class="copy" onclick="copy('${item.n}')">📋</div>
+            </div>`;
+        }
+    });
+}
+
+function filterType(type) {
+    currentFilter = type;
+    display();
+}
+
+function copy(name) {
+    navigator.clipboard.writeText(name);
+    alert(name + " copié !");
+}
+
+function toggleDark() {
+    document.body.classList.toggle("dark");
+}
+
+document.getElementById("search").addEventListener("input", display);
+
+display();
+</script>
+
+<footer>
+    <p>Choisir un prénom est une décision unique et précieuse 💖</p>
+</footer>
+
+</body>
+</html>

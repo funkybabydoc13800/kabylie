@@ -1,0 +1,147 @@
+body{
+    background-color: rgb(8, 99, 236);
+    color: rgb(248, 157, 157);
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4em;
+    color: red;
+    text-align: center;
+}
+
+.error{
+    color: rgb(190, 45, 45);
+}
+
+.success{
+    color: greenyellow;
+}
+
+main
+{
+   
+background-color: rgb(42, 43, 46);
+height: 3000px;
+max-height: 3100px;
+min-height: 1100px;
+margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+h2
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3.2em;
+    color: blue;
+    text-align: center;
+}
+
+h3
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.6em;
+    color: rgb(25, 162, 212);
+    text-align: center;
+}
+
+h4
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.1em;
+    color: green;
+    text-align: center;
+}
+
+h5
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.8em;
+    color: rgb(255, 250, 250);
+    text-align: center;
+}
+
+h6
+{
+    font-family: 'Courier New', Courier, monospace, Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    color: navy;
+    text-align: left;
+    padding-left: 30px;
+}
+
+p
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-align: center;
+    font-size: 1.50em;
+}
+em
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: left;
+    font-size: 16px;
+}
+table
+{
+    display: block;
+    flex: auto;
+    border-collapse: collapse; /* les bordures du tableau seront collées (plus joli)*/
+   
+    padding-left:10%;
+    padding-right: 10%;
+}
+tr,td,th
+{
+    border: 3px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+th
+{
+    color: rgb(81, 80, 80);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 26px;
+}
+form
+{
+    text-align: left;
+    background-color: rgb(20, 27, 27);
+    padding-left: 30px;
+    border: 1px solid navy;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 14px;
+}
+input
+{
+    width: 450px;
+    height: 30px;
+    border-radius: 3px;
+    border: 3px solid black;
+    padding-top: 3px;
+    margin-top: 6px;
+    margin-bottom: 40px;
+}
+.reset
+{
+    background-color: aliceblue;
+    height: 40px;
+    border-radius: 4px;
+    width: 160px;
+    border: 2px solid blue;
+}
+
+.submit
+{
+    background-color: green;
+    height: 40px;
+    border-radius: 4px;
+    width: 160px;
+    border: 2px solid blue;
+}

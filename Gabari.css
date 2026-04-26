@@ -1,0 +1,1243 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9 juin 2019, 00:54:54
+    Author     : milka
+*/
+
+@media (min-width: 1200px) {
+h1
+
+{
+    font-family :Algerian,Harlow solid italic,Arial;
+    color : lime;
+    font-size : 60px;
+    text-align: center;
+    text-shadow : 0 1px 0 #aaa,0 2px 0 #f5f5a5,-1px 3px 0 #C8C8C8,-1px 4px 0 #e1e1e1,
+
+        -2px 5px 0 black,
+        -2px 6px 0 white,
+        -2px 7px 2px rgba(0,0,0, 0.6),
+        -2px 7px 8px rgba(0,0,0, 0.2),
+        -2px 7px 45px rgba(0,0,0, 0.4);
+}
+h1:hover
+{
+    color: yellow;
+    font-size: 62px;
+}
+
+.music
+{
+    font-family: Harrington,algerian,constancia;
+    font-size: 60px;
+    color:black;
+
+}
+.music2
+{
+    font-family: algerian,cursive,Harrington,constancia;
+    font-size: 62px;
+    color:blue;
+
+}
+h2
+{
+    font-family : Algerian,cursive,corsiva;
+    color :blue;
+    font-size : 42px;
+    text-align: center;
+    text-shadow :2px 2px 1px white;
+    
+}
+
+.kab
+{
+    font-family : arial,Harrington,monotype corsiva,Algerian;
+    color :black;
+    font-size : 58px;
+    text-align: center;
+}
+
+h2.normal1
+{
+
+    font-family :arial,fantasy,cursive;
+    color :green;
+    font-size : 42px;
+    text-align: center;
+}
+
+h3
+{
+    font-family: Algerian,cursive, solid italic,forte,broadway;
+    font-size: 38px;
+    color: #00BBFF;
+    text-shadow :3px 2px 2px green;
+
+}
+h4
+{
+    font-family: Algerian,cursive,monotype corsiva,forte;
+    font-size: 34px;
+    color:green;
+    text-align: center;
+}
+h5
+{
+    color: #0062cc;
+    font-family: arial,fantasy,cursive,arial;
+    font-size: 22px;
+    text-align: center;
+    margin: auto;
+}
+h6
+{
+    font-size: 20px;
+    font-family: arial,arial black,impact;
+    color : navy;
+    font-weight: bold;
+    margin-left: 60px;
+    font-style: italic;
+
+}
+div
+{
+       width: 100%;
+}
+.imgA
+{
+    margin-left:20%;
+    margin-right: 10%;
+}
+.red
+{
+    color : red;
+}
+header
+{
+    background-color  : #00BBFF;
+    border-radius :10px 10px 8px 8px;
+}
+.smartphone
+{
+    display: none;
+    width: 100%;
+    background-color: green;
+    height: 80px;
+}
+div .container2
+{
+    display:none;
+    width: 100%;
+}
+.navbar
+{
+    width: 100%;
+    max-width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo
+{
+    font-size: 1.5rem;
+}
+.navbar .burger-menu-button
+{
+    color: #f41d1d;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+section
+{
+    background-color: cyan;
+}
+.section2
+
+{
+    background-color: #86cfde;
+    width:60%;
+}
+.section3
+
+{
+    background-color:black;
+    width:100%;
+    padding-left: 10px;
+    }
+}
+.Coran1
+{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.row
+{
+    width: auto;
+    margin-left: 2px;
+    padding-left: 15px;
+}
+aside
+
+{
+    background-color: #d1ecf1;
+    font-size: 18px;
+    border: 2px groove blue;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 9px;
+    padding: 10px;
+
+}
+
+aside.right1
+
+{
+    display: flex;
+    float: right;
+    background-color: #ffecf1;
+    font-size: 14px;
+    border: 2px groove navy;
+    width: 333px;
+    font-family: monospace,sans-serif,serif;
+    color: #000017;
+    border-radius: 3px;
+    
+   
+}
+
+table.tab1
+{
+    background-color: #86cfda;
+    color: lightseagreen;
+
+}
+
+table.tab2
+{
+    background-color: #86cfda;
+    font-family:sans-serif,serif,impact;
+    color: black;
+    border: 1px groove red;
+    border-bottom-color: blue;
+    border-radius: 2px;
+    width: 328px;
+}
+tbody
+
+{
+    width: 327px;
+}
+
+.tab2
+{
+    background-color: #86cfde;
+    color: black;
+    border: 1px groove navy;
+    border-bottom-color: blue;
+    border-radius: 2px;
+    width: 328px;
+}
+
+
+.link2
+{	
+    color: cornsilk;
+    font-family: arial,times,cursive,verdana;
+    font-size: 18px;
+    padding: 11px;
+    margin-left:auto;
+}
+footer
+{
+    background-color : gold;
+    border-radius:18px 18px 0px 0px;
+    width :auto;
+    height: 118px;
+}
+.foot
+{
+    height: 117px;
+    width: 170px;
+}
+
+body
+{
+    background-color: #fffffe;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.bodyFormul
+{
+    margin-left: 36px;
+    margin-right: 36px;
+    background-color: #86cfda;
+}
+.img2
+{
+    width : 100px;
+    height : 100px;
+    border-radius : 25px;
+}
+.img1
+{
+    float: left;
+    border-top-color: #987654;
+    border-radius: 6px;
+    border: 1px groove black;
+    margin: 3px;
+    width: 175px;
+    height: 145px;
+}
+img.img2
+{
+    float: left;
+    border-top-color: #987654;
+    border-radius: 4px;
+    border: 5px groove black;
+    margin: 3px;
+    padding: 1px;
+    margin-top: 30px;
+    width: 380px;
+    height: 230px;
+    
+}
+.imageflottante
+{
+    float: left;
+    padding-right: 9px;
+    padding-top: 12px;
+    border-radius: 4px;
+    
+}
+.image1
+{
+    margin-left:25%;
+    margin-right: auto;
+}
+
+.logos
+{
+    height: 58px;
+    padding: 3px;
+    margin-left: 22px;
+}
+a
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(130, 190, 245);
+    font-size: 18px;
+    text-align: left;
+
+}
+.gras
+{
+    font-family: arial black,serif;
+    color: black;
+    font-size : 16px;
+}
+
+.gras2
+{
+    font-family: arial ,serif;
+    color: white;
+    font-size : 14px;
+}
+.gras2:hover
+{
+color: #63c7b2;
+}
+
+.green
+{
+    background-color: #28a745;
+}
+
+p
+{
+    text-align: left;
+    color: black;
+    font-family: "roboto",constancia,times;
+    font-size: 20px;
+    width: 90%;
+    margin-left: 25px;
+    padding-left: 10px;
+}
+a:hover
+{
+    color: deeppink;
+    text-decoration: underline;
+}
+a:active
+{
+    text-decoration-color: red;
+}
+
+article
+{
+    width: 75%;
+    background-color: lightcyan;
+    font-family: "roboto",Arial, Helvetica, sans-serif,times;
+    color: black;
+    border: 2px groove blue;
+    font-size: 17px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 9px;
+    padding: 10px;
+    }
+article:hover
+{
+    background-color:rgb(169, 250, 250);
+    color: #00000e;
+    font-family: "roboto",Arial, Helvetica, sans-serif,times;
+    font-size: 17px;
+    padding: 12px;
+}
+.styl3
+{
+    width: 85%;
+    background-color: #00aa99;
+    text-align: left;
+}
+main
+{
+
+
+    border-radius: 3px 2px 2px 3px;
+
+}
+.gold
+{
+    background-image: url("http://www.kabylie-world.com/images/golden-background.jpg");
+    border-radius: 990px;
+    padding-left: 100px;
+    padding-right: 150px;
+    padding-bottom: 20px;
+    padding-top: 290px;
+    height: 700px;
+    width: 700px;
+}
+.gold2
+{
+    background-color : gold;
+    border-radius : 1px 1px 0px 0px;
+    height : 55px;
+}
+
+.green2
+{
+    background-color : green;
+    border-radius : 8px;
+    height : 80px;
+}
+.td1
+{
+    border : 2px ridge gold;
+    background-color: lightgreen;
+    opacity:0.90;
+}
+audio
+{
+    height : 40px;
+    width: 240px;
+}
+video
+{
+    margin-left: 30%;
+    margin-right: auto;
+}
+/* Conteneur de la photo et de la vidéo */
+.media {
+    display: flex;
+    justify-content: center; /* Centrer les éléments */
+    gap: 20px; /* Espacement entre la photo et la vidéo */
+}
+
+
+.Allah
+{
+
+    text-align: center;
+}
+
+.carroussel
+{
+    width:720px;
+    border: 3px solid cyan;
+    border-radius: 18px;
+}
+hr
+{
+    background-color:cyan;
+    height: 3px;
+    width: 98%;
+    border:1px solid blue;
+
+}
+
+.typ2
+            {
+                
+                background-color: silver;
+                height: 1px;
+                border: 1px solid black;
+                width: 100%;
+            }
+
+.style2
+
+{
+    background-color: aquamarine;
+    width: 92%;
+    border: 5px solid brown;
+    border-radius: 1px 3px 300px 300px;
+    font-family: Times,monotype corsiva;
+    font-size: 40px;
+    
+
+}
+
+.style2:hover
+
+{
+    font-size: 48px;
+}
+
+.cas1
+
+{
+margin-left: 20%;
+margin-right: 20%;
+    width: 76%;
+
+    text-align: center;
+
+}
+
+
+form
+{
+    padding: 1px;
+}
+cite
+{
+    text-align: center;
+    margin-left: auto;
+}
+mark
+{
+ text-align: center;
+ color: black;
+ margin: auto;  
+}
+div.font1
+
+{
+    width: 328px;
+    background-color: brown;
+    font-family: arial black,arial,monospace;
+    color: aliceblue;
+    font-size: 13px;
+    border: 1px ridge yellow;
+}
+.black
+        {
+            color:black;
+            font-family: serif,sans-serif,cursive;
+            font-size: 15px;
+        }
+
+/*
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+          */ 
+        /*Vidéo responsive : Pour les vidéos intégrées*/
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* Ratio 16:9 */
+            height: 0;
+        }
+        
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+
+        /* Icône du menu burger */
+.burger-icon {
+    width: 36px;
+    height: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.burger-icon .line {
+   
+    width: 100%;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+}
+
+/* Menu caché par défaut */
+.menu {
+    display:none;
+    float: left;
+    width: 30%;
+    top: 20px;
+    left: 10;
+    right: 0;
+    background-color: rgb(9, 9, 207);
+    padding: 20px;
+    margin-top: 3px;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 100;
+}
+
+.menu ul li {
+    margin: 16px 0;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 20px;margin-left: 20px;
+}
+
+
+
+.menu.active {
+    display: block;
+}
+.p1 {
+    font-family: sans-serif, arial, monotype;
+    color: black;
+    font-size: 14px;
+    width: 99%;
+}
+.blue {
+    color: blue;
+    font-size: 16px;
+    text-align: left;
+}
+
+
+/* Animation pour l'icône burger */
+.burger-icon .line {
+    transition: 0.9s;
+}
+
+.burger-icon.active .line:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.burger-icon.active .line:nth-child(2) {
+    opacity: 0.5;
+}
+
+.burger-icon.active .line:nth-child(3) {
+    transform: rotate(75deg) translate(-5px, -6px);
+}
+
+.menu1 {
+    display: block;
+    position: relative;
+    width:30%;
+    top: 20px;
+    left: 1;
+    right: 1;
+    background-color:rgb(255, 251, 0);
+    padding: 20px;
+    margin-top: 3px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+.menu1 ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu1 ul li {
+    margin: 6px 0;
+}
+
+.menu1 ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 900;
+}
+}
+
+
+
+/* ******************************Affichage du menu burger (mobile)********************************************************** */
+@media (min-width:481px) and (max-width: 900px) {
+    h1
+
+{
+    font-family :Algerian,Harlow solid italic,Arial;
+    color : lime;
+    font-size : 30px;
+    text-align: center;
+    text-shadow : 0 1px 0 #aaa,0 2px 0 #f5f5a5,-1px 3px 0 #C8C8C8,-1px 4px 0 #e1e1e1,
+
+        -2px 5px 0 black,
+        -2px 6px 0 white,
+        -2px 7px 2px rgba(0,0,3, 0.6),
+        -2px 7px 8px rgba(0,3,6, 0.2),
+        -2px 7px 45px rgba(0,4,9, 0.4);
+}
+h1:hover
+{
+    color: rgb(254, 255, 0);
+    font-size: 31px;
+}
+    
+    .menu {
+        display: block;
+        /*display: none;*/ /* Cacher par défaut */
+    }
+    .gold2
+    {
+        display: none;
+        background-color : gold;
+        border-radius : 8px;
+        height : 80px;
+    }
+    
+
+.smartphone
+{
+    display: block;
+    width: 100%;
+    background-color:green;
+    height: 80px;
+}
+div.container2
+{
+    display: block;
+}
+
+
+        /* Icône du menu burger */
+        .burger-icon {
+            width: 36px;
+            height: 24px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            cursor: pointer;
+            margin: 20px;
+        }
+        
+        .burger-icon .line {
+            width: 100%;
+            height: 3px;
+            background-color: rgb(1, 1, 83);
+        }
+        
+        /* Menu visible par défaut */
+        .menu {
+            display:block;
+            float: left;
+            width: 40%;
+            top: 20px;
+            left: 10;
+            right: 0;
+            background-color: rgb(0, 0, 158);
+            padding: 20px;
+            margin-top: 3px;
+            margin-left: 40px;
+            text-align: left;
+        }
+        
+        .menu ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 100;
+        }
+        
+        .menu ul li {
+            margin: 16px 0;
+        }
+        
+        .menu ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: 700;
+            padding-left: 20px;
+            margin-left: 20px;
+        }
+       
+
+    .img1
+    {
+        display: none;
+    }
+    .container.Hisoire
+    {
+        display: block;
+    }
+    .Musique
+    {
+        display: none;
+    }
+    .container .Coran
+    {
+        display: block;
+    }
+    .islam
+    {
+        display: inline-block;
+    }
+    .kab
+    {
+        font-size: 1.8rem;
+    }
+   
+    .container
+    {
+        width: 100%;
+    }
+    section
+    {
+        width: 100%;
+        background-color: rgb(4, 231, 231);
+    }
+    /*
+    .img1
+    {
+    width: 35%;
+    height: 30%;
+    }
+    */
+    .btn btn-primary
+    {
+        width: 100px;
+        height: 24px;
+        background-color: black;
+    }
+    .btn-primary
+    {
+        width: 100px;
+        height: 24px;
+        background-color: #0000be;
+    }
+
+.menu.active {
+    display: block;
+}
+.p1 {
+    font-family: sans-serif, arial, monotype;
+    color: black;
+    font-size: 14px;
+    width: 95%;
+}
+.blue {
+    color: blue;
+    font-size: 16px;
+    text-align: left;
+}
+
+
+a
+{
+    font-size: 1.8em;
+    color: rgb(255, 255, 255);
+    margin-left: 12px;
+}
+.link2
+{	
+color: cornsilk;
+font-family: arial,times,cursive,verdana;
+font-size: 18px;
+padding: 3px;
+}
+
+
+/* Animation pour l'icône burger */
+.burger-icon .line {
+    transition: 0.4s;
+}
+
+.burger-icon.active .line:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.burger-icon.active .line:nth-child(2) {
+    opacity: 0.5;
+}
+
+.burger-icon.active .line:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+    body
+     {
+        font-size: 12px;
+    }
+ 
+div .container2
+{
+    display: block;
+    width: 100%;
+}
+    .menu {
+        display: block;
+        /*display: none;*/ /* Cacher par défaut */
+    }
+    
+   
+
+
+.menu.active {
+    display: block;
+}
+
+    img {
+        
+        height: auto;
+    }
+  .logos
+    {
+        width:40%;
+    }
+        
+    /*Vidéo responsive : Pour les vidéos intégrées*/
+    .video-container {
+        position: relative;
+        padding-bottom: 56.25%; /* Ratio 16:9 */
+        height: 0;
+    }
+    
+    .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .section3
+
+{
+    background-color:black;
+    width:100%;
+}
+    footer
+{
+    background-color : gold;
+    border-radius:18px 18px 0px 0px;
+    width :auto;
+    height: 80px;
+}
+}
+
+/* ******************************FIN   Affichage du menu burger (mobile)********************************************************** */
+
+ /*Media query pour mettre un style en responsive*/       
+
+/* Styles par défaut (pour les écrans de bureau) */
+/*
+body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+*/
+/* Écrans de tablettes */
+
+/*
+
+@media (max-width: 900px) {
+    body {
+        font-size: 14px;
+    }
+   
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+       
+        h1
+
+{
+    font-family :Algerian,Harlow solid italic,Arial;
+    color : rgb(5, 167, 5);
+    font-size : 27px;
+    text-align: center;
+    text-shadow : 0 1px 0 #aaa,0 2px 0 #f5f5a5,-1px 3px 0 #C8C8C8,-1px 4px 0 #e1e1e1,
+
+        -2px 5px 0 black,
+        -2px 6px 0 white,
+        -2px 7px 2px rgba(0,0,0, 0.6),
+        -2px 7px 8px rgba(0,0,0, 0.2),
+        -2px 7px 45px rgba(0,0,0, 0.4);
+}
+h1:hover
+{
+    color: rgb(255, 8, 0);
+    font-size: 28px;
+    text-align: center;
+}
+    .img1
+    {
+        display: none;
+    }
+    .blue {
+        color: blue;
+        font-size: 24px;
+        text-align: left;
+    }
+
+    /*Vidéo responsive : Pour les vidéos intégrées*/
+    /*
+    .video-container {
+        position: relative;
+        padding-bottom: 56.25%; /* Ratio 16:9 */
+       /* height: 0;
+    }
+  
+    .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+div .container2
+{
+    display: block;
+}
+*/
+
+/* ---------------**************************Écrans de tel et petit smartphones***********************--------------- */
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+ 
+
+.smartphone
+{
+    display: block;
+    width: 100%;
+    background-color:blue;
+    height: 110px;
+}
+div.container2
+{
+    display: block;
+    width: 100%;
+}
+    .menu {
+        display: block;
+        /*display: none;*/ /* Cacher par défaut */
+    }
+    .img1
+    {
+        display: none;
+    }
+
+    .islam
+    {
+        display:none;
+    }
+    .kab
+    {
+        font-size: 1.6rem;
+    }
+    h1
+
+{
+    font-family :Algerian,Harlow solid italic,Arial;
+    color : lime;
+    font-size : 1.8em;
+    text-align: center;
+    text-shadow : 0 1px 0 #aaa,0 2px 0 #f5f5a5,-1px 3px 0 #C8C8C8,-1px 4px 0 #e1e1e1,
+
+        -2px 5px 0 black,
+        -2px 6px 0 white,
+        -2px 7px 2px rgba(0,0,0, 0.6),
+        -2px 7px 8px rgba(0,0,0, 0.2),
+        -2px 7px 45px rgba(0,0,0, 0.4);
+}
+h1:hover
+{
+    color: rgb(26, 26, 0);
+    font-size: 1.9em;
+    text-align: center;
+}
+    .container
+    {
+        width: 100%;
+    }
+    section
+    {
+        width: 100%;
+        background-color: rgba(147, 147, 255, 0.600);
+    }
+    hr
+    {
+display: none;
+    }
+    .gold2
+    {
+        display: none;
+        background-color : gold;
+        border-radius : 8px;
+        height : 80px;
+    }
+    .img1
+    {
+        width: 35%;
+    height: 30%;
+    }
+    
+    .btn btn-primary
+    {
+        width: 100px;
+        height: 24px;
+        background-color: black;
+    }
+    .btn-primary
+    {
+        width: 100px;
+        height: 24px;
+        background-color: #0000be;
+    }
+
+
+.menu.active {
+    display: block;
+}
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+        
+    /*Vidéo responsive : Pour les vidéos intégrées*/
+    .video-container {
+        position: relative;
+        padding-bottom: 56.25%; /* Ratio 16:9 */
+        height: 0;
+    }
+    
+    .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .p1
+    {
+        width: 90%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 12px;
+        text-align: start;
+        color: navy;
+    }
+    .blue {
+        color: blue;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .Coran1
+    {
+        width: 98%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px groove rgb(124, 1, 1);
+    }
+    audio
+    {
+        width: 98%;
+        background-color: darkgreen;
+        height: 30px;
+    }
+
+    
+    section .section3 .container .row img
+    {
+        width:10%;
+    }
+    .section3
+
+{
+    background-color:black;
+    width:100%;
+}
+footer
+{
+    background-color : gold;
+    border-radius:18px 18px 0px 0px;
+    width :auto;
+    height: 70px;
+}
+    .logos
+    {
+        width: 9%;
+    }
+
+    .gras2
+    {
+        font-family: arial ,serif;
+        color:rgb(255, 255, 238);
+        font-size : 11px;
+        margin-left: 6px;
+        padding-left: 3px;
+        margin-top: 30px;
+        padding-top: 13px;
+        padding-bottom: 2px;
+    }
+    .gras2:hover
+    {
+    color: #00003f;
+    font-size: 12px;
+    }
+
+    a
+    {
+        font-size: 0.8em;
+        color: blue;
+    }
+    .link2
+{	
+    color: cornsilk;
+    font-family: arial,times,cursive,verdana;
+    font-size: 13px;
+    padding: 1px;
+}
+}
