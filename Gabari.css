@@ -74,7 +74,7 @@ h2.normal1
 h3
 {
     font-family: Algerian,cursive, solid italic,forte,broadway;
-    font-size: 38px;
+    font-size: 30px;
     color: #00BBFF;
     text-shadow :3px 2px 2px green;
 
@@ -90,8 +90,8 @@ h5
 {
     color: #0062cc;
     font-family: arial,fantasy,cursive,arial;
-    font-size: 22px;
-    text-align: center;
+    font-size: 27px;
+    text-align:initial;
     margin: auto;
 }
 h6
@@ -212,6 +212,12 @@ aside.right1
     
    
 }
+table
+{
+    margin-left: 130px;
+    margin-right: 130px;
+    padding: 20px;
+}
 
 table.tab1
 {
@@ -253,7 +259,7 @@ tbody
     font-family: arial,times,cursive,verdana;
     font-size: 18px;
     padding: 11px;
-    margin-left:auto;
+    margin-left:18px;
 }
 footer
 {
@@ -332,7 +338,7 @@ img.img2
 a
 {
     font-family: 'Times New Roman', Times, serif;
-    color: rgb(130, 190, 245);
+    color: rgb(1, 33, 65);
     font-size: 18px;
     text-align: left;
 
@@ -430,7 +436,7 @@ main
 {
     background-color : gold;
     border-radius : 1px 1px 0px 0px;
-    height : 55px;
+    height : 80px;
 }
 
 .green2
@@ -531,13 +537,17 @@ form
 cite
 {
     text-align: center;
-    margin-left: auto;
+    color: rgb(0, 0, 0);
+    margin-left: 22%;
+   
 }
 mark
 {
  text-align: center;
- color: black;
- margin: auto;  
+ color: rgb(31, 0, 0);
+    margin-left: 25%;
+   
+   
 }
 div.font1
 
@@ -694,7 +704,7 @@ div.font1
     font-size: 17px;
     font-weight: 900;
 }
-}
+
 
 
 
@@ -881,6 +891,8 @@ color: cornsilk;
 font-family: arial,times,cursive,verdana;
 font-size: 18px;
 padding: 3px;
+margin-left: 18px;
+padding-left: 5px;
 }
 
 
@@ -1238,6 +1250,8 @@ footer
     color: cornsilk;
     font-family: arial,times,cursive,verdana;
     font-size: 13px;
-    padding: 1px;
+    padding: 3px;
+    margin-left: 16px;
+    padding-left: 5px;
 }
 }
